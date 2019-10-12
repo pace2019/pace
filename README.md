@@ -18,8 +18,8 @@ python -u -m mnist_cifar_imagenet_svhn.selection --exp_id=lenet1 --select_layer_
 ```
 
 - `exp_id` : the id of the model
-- `select_layer_idx` : the number of layers of the extracted feature 
-- `dec_dim` : the dimension of reduction 
+- `select_layer_idx` : index of layer which is selected to extract feature 
+- `dec_dim` : the dimension after reduction 
 - `min_samples` and `min_cluster_size` : the parameters required for hdbscan clustering
 
 #### Results
