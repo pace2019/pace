@@ -20,4 +20,4 @@ python -u -m mnist_cifar_imagenet_svhn.selection --exp_id=lenet1 --select_layer_
 \* Exp_id is the id of the model. Select_layer_idx is the number of layers of the extracted feature. Dec_dim is the number of dimensionality reductions. Min_samples and min_cluster_size are the parameters required for hdbscan clustering.
 
 #### Results
-Also, we put the raw data results for all experiments in the  AllResult folder.
+Also, we put the raw data results for all experiments in `AllResult`. 
