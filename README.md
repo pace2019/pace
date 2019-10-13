@@ -1,5 +1,5 @@
 # Practical Accuracy Estimation for Efficient DNN Testing
-This is the code implementation of PACE.
+This is the implementation of **PACE** including `evaluation code`, `studied DNN models` , `corresponding testing sets` and `experiment results`. Also, we have released an `extensive dataset` for future usage and research.
 
 #### Environment configuration
 Before running, please make sure you have installed various related packages, including keras, tensorflow, hdbscan and sklearn.
