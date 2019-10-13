@@ -24,3 +24,12 @@ python -u -m mnist_cifar_imagenet_svhn.selection --exp_id=lenet1 --select_layer_
 
 #### Results
 Also, we put the raw data results for all experiments in `AllResult`. 
+
+#### Datasets and pre-trained models
+
+We published all studied DNN models we utilized and you can find them in `mnist_cifar_imagenet_svhn\model`.
+
+Meanwhile, we released all corresponding testing sets in the `mnist_cifar_imagenet_svhn\data`. The data of MNIST, CIFAR-10 and CIFAR-100 can be obtained directly from Keras API.
+
+Regarding to Driving, the pre-trained models can be found in folder `driving`, and the testing sets are in the `driving\testing`.
+
